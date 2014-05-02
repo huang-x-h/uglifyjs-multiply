@@ -1,6 +1,20 @@
 # grunt-uglifyjs-multiply
 
-> uglify mulitply files
+> each uglify mulitply files
+
+i.e:
+
+source files
+	
+	src/sample.js
+	src/dir/sample1.js
+	src/dir/childdir/sample3.js
+
+uglify files
+	
+	dest/src/sample_min.js
+	dest/src/dir/sample1_min.js
+	dest/src/dir/childdir/sample3_min.js
 
 ## Getting Started
 This plugin requires Grunt `~0.4.4`
