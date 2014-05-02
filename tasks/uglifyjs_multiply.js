@@ -16,7 +16,7 @@ function normalizeLf( string ) {
 }
 
 module.exports = function(grunt) {
-  var uglify = require('./lib/uglify').init(grunt);
+  var uglify = require('grunt-contrib-uglify/tasks/lib/uglify').init(grunt);
 
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
