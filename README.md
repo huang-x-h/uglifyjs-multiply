@@ -1,4 +1,4 @@
-# grunt-uglifyjs-multiply
+# grunt-uglifyjs-multiply [![Build Status](https://travis-ci.org/huang-x-h/uglifyjs-multiply.svg?branch=master)](https://travis-ci.org/huang-x-h/uglifyjs-multiply)
 
 > each uglify mulitply files
 
