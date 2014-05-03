@@ -65,3 +65,7 @@ grunt.initConfig({
   },
 });
 ```
+
+## Release History
+
+- 2014-05-03    v0.1.0      First release for Grunt 0.4.4.
