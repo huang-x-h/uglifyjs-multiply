@@ -68,4 +68,5 @@ grunt.initConfig({
 
 ## Release History
 
-- 2014-05-03    v0.1.0      First release for Grunt 0.4.4.
+- 2014-05-02    v0.1.0      First release for Grunt 0.4.4.
+- 2014-05-03    v0.1.0rc1      declare files to include in project.
