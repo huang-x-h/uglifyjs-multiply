@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         options: {
         },
         files: {
-          'tmp': ['test/fixtures/**/*.js']
+          'tmp/': ['test/fixtures/**/*.js']
         }
       }
     },

@@ -52,7 +52,7 @@ module.exports = function(grunt) {
 
       src.forEach(function(filepath) {
         var result,
-            destfilepath = f.dest + path.sep + path.dirname(filepath) + path.sep + path.basename(filepath, '.js') + '_min.js';
+            destfilepath = f.dest + path.dirname(filepath) + path.sep + path.basename(filepath, '.js') + '_min.js';
         try {
           result = uglify.minify([filepath], f.dest, options);
         } catch (e) {
