@@ -60,7 +60,7 @@ grunt.initConfig({
   uglifyjs_multiply: {
     options: {},
     files: {
-      'dest': ['src/**/*.js'],
+      'dest/': ['src/**/*.js'],
     },
   },
 });
